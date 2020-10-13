@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+table{
+  margin: auto;
+  font-size: 20px;
+  border-collapse: collapse;
+}
+table tr:first-child{
+  font-weight: bold;
+  color: white;
+  background-color: rgb(54, 53, 53);
+}
+
+tr{
+  height: 50px;
+}
+
+td{
+  border: 1px solid rgb(54, 53, 53);
+  padding: 15px;
+}
+
+form{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 412px;
+  margin-top: 100px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 20px;
+  margin-bottom: 50px;
+
+}
+input{
+  height: 56px;
+  margin-bottom: 29px;
+padding-left: 10px;
+font-size: 18px;
+}
+
+textarea{
+  height: 220px;
+  margin-bottom: 29px;
+  resize: none;
+  padding-top: 25px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+input[type=button]{
+  background-color: rgb(235, 62, 62);
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 35%;
+  margin: auto;
+}
